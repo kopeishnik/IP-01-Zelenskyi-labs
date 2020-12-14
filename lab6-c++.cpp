@@ -5,8 +5,9 @@ using namespace std;
 int main() {
 	long int SumOfDivisors(long int);
 	long int n; //межа вимірювання
-	cout << "cin n pliz" << endl; //просимо ввести межу вимірювання
+	cout << "enter N please:" << endl; //просимо ввести межу вимірювання
 	cin >> n; //зчитуємо межу вимірювання
+	cout << "results:" << endl; 
 	for (long int i = 1; i < n; i++) {
 		long int sum = SumOfDivisors(i);
 		if (sum == i) {		//перевіряємо число на досконалість

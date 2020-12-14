@@ -6,6 +6,7 @@ def SumOfDivisors(number): #функція для знаходження сум�
     return s
 
 n = int(input("Enter a value of n:")) #просимо ввести межу вимірювання
+print("results:")
 for i in range (1, n-1):
     sum = SumOfDivisors(i)
     if sum == i: #перевіряємо число на досконалість
